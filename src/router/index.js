@@ -1,11 +1,35 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
+import Services from "../views/ServicesView.vue";
+import Employment from "../views/EmploymentView.vue";
+import Contact from "../views/ContactView.vue";
+import Entrance from "../views/EntranceView.vue";
 
 const routes = [
   {
     path: "/",
     name: "home",
     component: HomeView,
+  },
+  {
+    path: "/sasinc/services",
+    name: "Services",
+    component: Services,
+  },
+  {
+    path: "/sasinc/employment",
+    name: "Employment",
+    component: Employment,
+  },
+  {
+    path: "/sasinc/contact",
+    name: "Contact",
+    component: Contact,
+  },
+  {
+    path: "/sasinc/entrance",
+    name: "Entrance",
+    component: Entrance,
   },
   {
     path: "/about",
