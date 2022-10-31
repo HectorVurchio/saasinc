@@ -1,6 +1,6 @@
 <template>
   <div
-    id="carrusel-pacheco"
+    id="carrusel-steve"
     class="carousel carousel slide"
     data-bs-ride="carousel"
   >
@@ -9,7 +9,7 @@
         v-for="picture in pictures"
         :key="picture.item"
         type="button"
-        data-bs-target="#carrusel-pacheco"
+        data-bs-target="#carrusel-steve"
         :data-bs-slide-to="picture.item"
         :class="Number(picture.item) == 0 ? 'active' : ''"
         aria-current="true"
@@ -39,7 +39,7 @@
     <button
       class="carousel-control-prev"
       type="button"
-      data-bs-target="#carrusel-pacheco"
+      data-bs-target="#carrusel-steve"
       data-bs-slide="prev"
     >
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -48,7 +48,7 @@
     <button
       class="carousel-control-next"
       type="button"
-      data-bs-target="#carrusel-pacheco"
+      data-bs-target="#carrusel-steve"
       data-bs-slide="next"
     >
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
