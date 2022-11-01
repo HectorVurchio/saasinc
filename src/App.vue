@@ -22,5 +22,7 @@ export default {
 .navbarone {
   width: 90%;
   margin: auto;
+  background: url("@/assets/new-heart-pine.jpg");
+  margin-bottom: 30px;
 }
 </style>

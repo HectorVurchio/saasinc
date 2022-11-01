@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="container-fluid d-flex align-items-end">
       <router-link class="navbar-brand" to="/">
-        <img src="../assets/sasImg.png" alt="" width="340" height="140" />
+        <img src="../assets/sasImg.png" alt="" width="320" height="140" />
       </router-link>
       <button
         class="navbar-toggler"
@@ -19,29 +19,29 @@
         <ul class="navbar-nav">
           <li class="nav-item">
             <router-link
-              class="nav-link fs-5 fw-light"
+              class="nav-link fs-3 fw-light"
               aria-current="true"
               to="/about"
               >ABOUT</router-link
             >
           </li>
           <li class="nav-item">
-            <router-link class="nav-link fs-5 fw-light" to="/sasinc/services"
+            <router-link class="nav-link fs-3 fw-light" to="/sasinc/services"
               >SERVICES</router-link
             >
           </li>
           <li class="nav-item">
-            <router-link class="nav-link fs-5 fw-light" to="/sasinc/employment"
+            <router-link class="nav-link fs-3 fw-light" to="/sasinc/employment"
               >EMPLOYMENT</router-link
             >
           </li>
           <li class="nav-item">
-            <router-link class="nav-link fs-5 fw-light" to="/sasinc/contact"
+            <router-link class="nav-link fs-3 fw-light" to="/sasinc/contact"
               >CONTACT</router-link
             >
           </li>
           <li>
-            <router-link class="nav-link fs-5 fw-light" to="/sasinc/entrance"
+            <router-link class="nav-link fs-3 fw-light" to="/sasinc/entrance"
               >ENTRANCE</router-link
             >
           </li>
@@ -59,7 +59,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800&display=swap");
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
