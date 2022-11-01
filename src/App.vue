@@ -1,5 +1,5 @@
 <template>
-  <NavBar />
+  <NavBar class="navbarone" />
   <router-view />
 </template>
 <script>
@@ -18,5 +18,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+.navbarone {
+  width: 90%;
+  margin: auto;
 }
 </style>

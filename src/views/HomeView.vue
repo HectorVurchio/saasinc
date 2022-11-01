@@ -2,7 +2,7 @@
   <div class="home">
     <CarouselBar class="carouselBar" />
     <InfoArea class="infoArea" />
-    <FooterMain />
+    <FooterMain class="footerMain" />
   </div>
 </template>
 
@@ -29,5 +29,11 @@ export default {
 }
 .infoArea {
   margin-top: 30px;
+}
+.footerMain {
+  margin-top: 50px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
