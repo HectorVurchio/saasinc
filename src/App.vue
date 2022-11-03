@@ -1,13 +1,16 @@
 <template>
   <NavBar class="navbarone" />
   <router-view />
+  <FooterMain class="footerMain" />
 </template>
 <script>
 import NavBar from "./components/NavBar.vue";
+import FooterMain from "@/components/FooterMain.vue";
 export default {
   name: "App",
   components: {
     NavBar,
+    FooterMain,
   },
 };
 </script>
@@ -24,5 +27,11 @@ export default {
   margin: auto;
   background: url("@/assets/new-heart-pine.jpg");
   margin-bottom: 30px;
+}
+.footerMain {
+  margin-top: 50px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>

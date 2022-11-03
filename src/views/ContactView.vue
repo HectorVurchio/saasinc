@@ -94,7 +94,7 @@
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row info">
             <div class="col-md-3">
               <div class="dbox w-100 text-center">
                 <div
@@ -172,6 +172,9 @@ export default {
 };
 </script>
 <style scoped>
+.info {
+  margin-bottom: 50px;
+}
 #form-message-warning {
   color: red;
 }
